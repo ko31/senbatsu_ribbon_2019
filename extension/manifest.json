@@ -1,0 +1,46 @@
+{
+    "name": "Senbatsu Ribbon 2017",
+        "version": "1.0",
+        "manifest_version": 2,
+        "description": "2019年センバツ出場校の Web サイトにリボンをかける Chrome 拡張です",
+        "content_scripts": [{
+            "matches": [
+                "http://www.s-ohtani.ed.jp/",
+                "http://www.kibou.ac.jp/daiichi/",
+                "http://kh.hachinohe-u.ac.jp/",
+                "http://www.morifu.jp/",
+                "http://toin.ac.jp/",
+                "https://www.k-kyoei.ed.jp/hs/",
+                "http://www.yghs.ed.jp/",
+                "http://www.nkc.city.narashino.chiba.jp/narako/",
+                "http://hs.kokushikan.ed.jp/",
+                "https://www.yokohama-jsh.ac.jp/",
+                "http://www.seiryo-hs.jp/s/",
+                "http://www.keishin.ed.jp/",
+                "https://www.toho-h.ed.jp/",
+                "http://tsudagakuen.ac.jp/koukou/",
+                "http://www.heian.ed.jp/",
+                "http://www.akashi-ch.ed.jp/",
+                "https://riseisha.ed.jp/h_school/",
+                "https://www.chiben.ac.jp/wakayama/",
+                "http://seibi-hs.jp/",
+                "http://www.ichiko-wakayama.ed.jp/",
+                "http://www.koryo.ac.jp/",
+                "http://cmsweb2.torikyo.ed.jp/yonagoe-h/",
+                "http://www.kure-city.jp/~kurek/top.html",
+                "http://www.kagawa-edu.jp/takash01/home/",
+                "http://matsuyamaseiryo-h.ed.jp/",
+                "http://www.chikuyogakuen.ed.jp/",
+                "http://meiho-beppu.jp/",
+                "http://www.oita-h.ed.jp/",
+                "http://www.nissho.ac.jp/",
+                "http://www.ishioka1-h.ibk.ed.jp/",
+                "http://tomiokanishi-hs.tokushima-ec.ed.jp/",
+                "https://sh.higo.ed.jp/kumanishi/"
+            ],
+            "js": ["ribbon.js"],
+            "run_at": "document_end"
+        }]
+}
+
+
