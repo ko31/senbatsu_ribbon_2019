@@ -1,4 +1,4 @@
-# Sensyuken Ribbon 2018
+# Senbatsu Ribbon 2019
 
 2019年センバツ出場校の Web サイトに出場記念リボンをかける Chrome 拡張です。
 
@@ -18,7 +18,7 @@
 
 「第91回センバツ出場校」と書かれたリボンがページ右上（学校によっては左上）に表示されます。
 
-![screenshot.png](https://raw.githubusercontent.com/ko31/sensyuken_ribbon_2018/master/screenshot.png)
+![screenshot.png](https://raw.githubusercontent.com/ko31/senbatsu_ribbon_2019/master/screenshot.png)
 
 ## Third Party Resources
 
